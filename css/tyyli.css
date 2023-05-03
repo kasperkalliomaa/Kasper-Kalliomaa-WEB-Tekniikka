@@ -1,0 +1,128 @@
+.lomake {
+    border: 1px solid black;
+    margin: 100px;
+    border-radius: 30px;
+
+}
+.mb-3{
+    text-align: left;
+    margin: 30px;
+}
+.form-check {
+    margin: 30px;
+}
+
+.viestit{
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+  margin-top: 50px;
+}
+#kilpikonna{
+  height: 300px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6d6d6d2;
+  }
+  .laatikko {
+    background-color: #c9c9c9;
+    border: 1px solid #8f8e8e;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: rgb(236, 191, 140);
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  #navbar {
+    
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: px;
+
+  }
+  
+  .nav-link {
+    color: rgb(236, 191, 140);
+  }
+
+  .nav-link:hover {
+    color: rgb(236, 191, 140);
+    font-weight: bolder;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: #333;
+    color: rgb(236, 191, 140);
+    padding: 5px;
+    align-items: center; 
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+footer img{
+    height: 80px;
+    margin: 50px;
+    float: right;
+}
+footer table{
+  margin: 50px;
+}
+.accordion{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+@media screen and (min-width: 761px) {
+
+  footer table{
+    margin-left: 30%;
+    
+  }
+  footer img{
+    margin-right: 30%;
+  }
+  .laatikko p {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+ 
+
+
+}
+@media screen and (max-width: 670px) {
+  
+ footer {
+  align-items: center;
+}
+footer img{
+  display: none;
+}
+#kilpikonna {
+  height: 100px;
+}
+
+
+
+}
+
+
